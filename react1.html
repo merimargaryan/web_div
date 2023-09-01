@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App with Two Counter Buttons</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: linear-gradient(45deg, #f3ec78 0%, #af4261 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+    }
+    
+    #app {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        color: #af4261;
+    }
+    
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+        color: #666;
+    }
+
+    button {
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: #af4261;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    button:hover {
+        background-color: #f3ec78;
+        color: #000;
+    }
+</style>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="react1_CounterButton.js"></script>
+</body>
+</html>
